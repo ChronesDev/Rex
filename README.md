@@ -7,7 +7,7 @@
 **What is Rex?** \
 Rex is another retained UI engine built on top of YogaLayout. 
 Rex basically does everything except rendering and directly handling events (like key presses or ect.).
-What Rex mainly does is managing the layout, like alignment, sizes, padding or ect.
+What Rex mainly does is managing the layout, like alignment, sizes, padding or ect. and structuring the element relations.
 
 **What about Index UI?** \
 Rex is built on top of Index UI and should fix all the flaws Index UI had. 
