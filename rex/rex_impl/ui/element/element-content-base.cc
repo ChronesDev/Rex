@@ -12,11 +12,19 @@ namespace rex::ui
 {
     struct ElementContentBase : virtual IElement
     {
+        friend Element;
+        friend ElementBase;
+
         ElementContentBase();
         ~ElementContentBase();
 
       private:
         std::list<std::shared_ptr<Element>> Content_;
+
+      public:
+        REX_PROP(get = GetContent)
+        const decltype(Content_)& Content;
+        auto GetContent() const -> const decltype(Content_)& { return Content_; }
 
       public:
         auto Contains(const std::shared_ptr<Element>& e) -> bool;

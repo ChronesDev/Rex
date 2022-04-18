@@ -15,6 +15,8 @@ int main()
         element.OuterNode.setOwner(nullptr);
 
         node.insertChild(&element.OuterNode, 0);
+
+        element.Search("#/10/10/10");
     }
     Index::Console.Log(":) ", node.getChildren().size());
 }

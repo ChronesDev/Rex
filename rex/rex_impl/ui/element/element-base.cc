@@ -1,6 +1,8 @@
 #pragma once
 #include <rex-in>
 
+#include <any>
+
 #include "def"
 #include "element-content-base.cc"
 #include "element-layout-base.cc"
@@ -40,5 +42,18 @@ namespace rex::ui
       protected:
         virtual auto Attached(Element* e) -> void { }
         virtual auto Detached(Element* e) -> void { }
+
+      public:
+        virtual auto Render(void* q, size_t t) -> void;
+
+      protected:
+        auto RenderContent(void* q, size_t t) -> void;
+
+      public:
+        auto Search(const Index::string& p) -> std::shared_ptr<Element>;
+        auto Search(ElementPath p) -> std::shared_ptr<Element>;
+
+      protected:
+        template<class T> static auto RenderQ(void* q, size_t t) -> T*;
     };
 }
