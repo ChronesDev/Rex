@@ -1,0 +1,10 @@
+#pragma once
+
+namespace rex::ui
+{
+    struct IElement;
+    struct Element;
+    struct ElementBase;
+    struct ElementContentBase;
+    struct ElementLayoutBase;
+}

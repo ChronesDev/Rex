@@ -1,0 +1,8 @@
+#pragma once
+
+namespace rex::ui
+{
+    enum class Align;
+    enum class HAlign;
+    enum class VAlign;
+}

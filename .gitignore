@@ -1,0 +1,71 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# VS
+.vs/
+cpp.hint
+
+# CLion
+.idea/
+
+# CMake Build
+cmake-build-debug/
+cmake-build-release/
+cmake-build-debug-msvc/
+cmake-build-release-msvc/
+cmake-build-debug-clang/
+cmake-build-release-clang/
+cmake-build-debug-gcc/
+cmake-build-release-gcc/
+
+# Vcx Build Debugging
+vcxproj-build/
+
+build/
+out/
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Cache
+.cache

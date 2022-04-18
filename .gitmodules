@@ -1,0 +1,6 @@
+[submodule "lib/Index2"]
+	path = lib/Index2
+	url = https://github.com/ChronesDev/Index2/
+[submodule "lib/YogaLayout"]
+	path = lib/YogaLayout
+	url = https://github.com/facebook/yoga
