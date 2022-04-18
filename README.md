@@ -1,6 +1,8 @@
 > :information_source: This project is currently work in progress
 
 # rex
+[![](https://tokei.rs/b1/github/ChronesDev/Rex?category=files)](https://github.com/ChronesDev/Rex)
+[![](https://tokei.rs/b1/github/ChronesDev/Rex?category=code)](https://github.com/ChronesDev/Rex)
 
 **What is Rex?** \
 Rex is another retained UI engine built on top of YogaLayout. 
