@@ -10,7 +10,7 @@ Rex basically does everything except rendering and directly handling events (lik
 What Rex mainly does is managing the layout, like alignment, sizes, padding or ect. and structuring the element relations.
 
 **What about Index UI?** \
-Rex is built on top of Index UI and should fix all the flaws Index UI had. 
+Rex is built on top of Index and should fix all the flaws Index UI had. 
 So basically Index UI is deprecated and Rex is here to replace it.
 
 **When to use Rex?** \
