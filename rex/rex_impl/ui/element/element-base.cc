@@ -53,6 +53,18 @@ namespace rex::ui
         auto Search(const Index::string& p) -> std::shared_ptr<Element>;
         auto Search(ElementPath p) -> std::shared_ptr<Element>;
 
+        auto TrySearch(const Index::string& p) -> std::shared_ptr<Element>;
+        auto TrySearch(ElementPath p) -> std::shared_ptr<Element>;
+
+        template<class T> auto Search(const Index::string& p) -> std::shared_ptr<T>;
+        template<class T> auto Search(ElementPath p) -> std::shared_ptr<T>;
+
+        template<class T> auto TrySearch(const Index::string& p) -> std::shared_ptr<T>;
+        template<class T> auto TrySearch(ElementPath p) -> std::shared_ptr<T>;
+
+      private:
+        auto SearchElementScope_() -> ElementScope*;
+
       protected:
         template<class T> static auto RenderQ(void* q, size_t t) -> T*;
     };
